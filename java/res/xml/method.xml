@@ -240,6 +240,12 @@
     />
     <!-- Java uses the deprecated "in" code instead of the standard "id" code for Indonesian. -->
     <subtype android:icon="@drawable/ic_subtype_keyboard"
+            android:label="@string/subtype_hu_ZZ"
+            android:imeSubtypeLocale="hu_ZZ"
+            android:imeSubtypeMode="keyboard"
+            android:imeSubtypeExtraValue="AsciiCapable,SupportTouchPositionCorrection"
+    />
+    <subtype android:icon="@drawable/ic_subtype_keyboard"
             android:label="@string/subtype_generic"
             android:subtypeId="2108597344"
             android:imeSubtypeLocale="in"
